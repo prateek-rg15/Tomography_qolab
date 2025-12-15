@@ -1,0 +1,29 @@
+{
+    "execution_time_seconds": 38.75811243057251,
+    "ds": "./ds.h5",
+    "bloch_vector": {
+        "rx": 0.974,
+        "ry": 0.052000000000000046,
+        "rz": 0.04200000000000004
+    },
+    "fidelity_to_0": 0.521,
+    "fidelity_to_1": 0.479,
+    "fidelity_to_plus": 0.987,
+    "fidelity_to_i": 0.526,
+    "figure": "./figure.png",
+    "initial_parameters": {
+        "qubits": [
+            "q4"
+        ],
+        "use_state_discrimination": true,
+        "num_averages": 1000,
+        "flux_point_joint_or_independent": "independent",
+        "reset_type_thermal_or_active": "active",
+        "prepared_state": "plus",
+        "simulate": false,
+        "simulation_duration_ns": 2500,
+        "timeout": 100,
+        "load_data_id": null,
+        "multiplexed": false
+    }
+}
